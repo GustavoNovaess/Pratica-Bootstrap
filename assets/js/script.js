@@ -7,7 +7,7 @@ let assuntoOk = false;
 
 function validaNome() {
     let txt = document.querySelector("#txtNome");
-    txt.style.fontFamily = 'Impact';
+    //txt.style.fontFamily = 'Impact';
     txt.style.fontSize = '16px';
 
     if (nome.value.length == 0) {
@@ -27,7 +27,7 @@ function validaNome() {
 
 function validaEmail() {
     let txtEmail = document.querySelector('#txtEmail');
-    txtEmail.style.fontFamily = 'Impact';
+    //txtEmail.style.fontFamily = 'Impact';
     txtEmail.style.fontSize = '16px';
 
     if (email.value.length == 0) {
@@ -48,7 +48,7 @@ function validaEmail() {
 
 function validaAssunto() {
     let txtAssunto = document.querySelector('#txtAssunto');
-    txtAssunto.style.fontFamily = 'Impact';
+    //txtAssunto.style.fontFamily = 'Impact';
     txtAssunto.fontSize = '16px';
 
     if (assunto.value.length >= 100) {
