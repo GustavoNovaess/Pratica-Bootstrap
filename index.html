@@ -14,23 +14,24 @@
 </head>
 
 <body>
-
+    
     <!-- Menu -->
-    <div class = "sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid px-0">
-                <div class="row d-flex justify-content-evenly align-items-center w">
-                    <div class="col-2 d-flex justify-content-center">
+    <div class="sticky-top" id="fonte-menu">
+        <nav class="navbar navbar-expand-lg bg-verdeescuro">
+
+            <div class="container-fluid px-0 hylia">
+
+                <div class="row d-flex justify-content-evenly align-items-center w collapse navbar-collapse">
+                    <div class="col-2 d-flex-wrap justify-content-center">
+
                         <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/hyliancrest.png" alt="" width="70" height="45">
+                            <img src="assets/img/hyliancrest.png" alt=""width="65" height="37">
                         </a>
+
                     </div>
 
-                    <div class="col-2 text-center">
+                    <div class="col-2 d-flex-wrap text-center">
 
-
-                        <div class="collapse navbar-collapse row d-flex justify-content-evenly"
-                            id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex justify-content-evenly">
                                 <li class="nav-item">
                                     <a class="nav-link" href="contato.html">Contato</a>
@@ -38,150 +39,171 @@
 
 
                             </ul>
-                        </div>
+                        
                     </div>
 
-                    <div class="col-2 text-center">
+                    <div class="col-2 d-flex-wrap text-center">
 
 
-                        <div class="collapse navbar-collapse row d-flex justify-content-evenly"
-                            id="navbarSupportedContent">
+                        
+                            
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex justify-content-evenly">
 
-                                 <li class="nav-item">
+                                <li class="nav-item">
                                     <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">História</a>
                                 </li>
 
                             </ul>
-                        </div>
+                        
                     </div>
-                    
-                    <div class="col-2 text-center">
+
+                    <div class="col-2 d-flex-wrap text-center">
 
 
-                        <div class="collapse navbar-collapse row d-flex justify-content-evenly"
-                            id="navbarSupportedContent">
+                        
+                            
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex justify-content-evenly">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
                                         Jogos
                                     </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="subitem">
                                         <li><a class="dropdown-item" href="#">Breath of the Wild 2</a></li>
                                         <li><a class="dropdown-item" href="#">Skyward Sword</a></li>
                                     </ul>
                                 </li>
                             </ul>
-                        </div>
+                        
                     </div>
 
-                    <div class="col-2 d-flex justify-content-center">
+                    <div class="col-2 d-flex justify-content-center align-items-center" id="social">
 
-                        <a href="https://www.linkedin.com/in/gustavo-novaes-505614203/" target="_blank" class="px-1">
-                            <img class="social" src="assets/img/linkedin3.png" alt="Link do linkedin">
+                        <a href="https://www.linkedin.com/in/gustavo-novaes-505614203/" target="_blank" class="px-2">
+                            <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://github.com/GustavoNovaess" target="_blank" class="px-1">
-                            <img class="social" src="assets/img/github3.png" alt="Link do GitHub">
+                        <a href="https://github.com/GustavoNovaess" target="_blank" class="px-23">
+                            <i class="fab fa-github-alt"></i>
                         </a>
 
                     </div>
                 </div>
             </div>
+        </nav>
     </div>
-
-
-    <!-- Formulário de pesquisa <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>  -->
-    </nav>
     <!--/Menu -->
 
     <!-- Carrossel -->
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-12">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/botw2runninglink.jpg" class="d-block w-100" alt="Breath of the Wild 2">
+                            <div class="carousel-caption d-none d-md-block contorno">
+                                <h5>The Legend of Zelda: Breath of the Wild 2</h5>
+                                <p class="tamanhofonte">Veja as notícias desse novo titulo da franquia</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/zelda-skyward-sword-1280x720-wallpaper.jpg" class="d-block w-100"
+                                alt="Skyward Sword">
+                            <div class="carousel-caption d-none d-md-block contorno">
+                                <h5>Skyward Sword HD</h5>
+                                <p class="tamanhofonte">O remaster de Skyward Sword está chegando!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/zelda35.jpg" class="d-block  img-35 w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block contorno">
+                                <h5>35 Anos de The Legend of Zelda</h5>
+                                <p class="tamanhofonte">Veja como os 35 anos da franquia estão sendo comemorados</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="assets/img/botw2.jpg" class="d-block w-100" alt="Breath of the Wild 2">
-                <div class="carousel-caption d-none d-md-block contorno">
-                    <h5>The Legend of Zelda: Breath of the Wild 2</h5>
-                    <p class = "tamanhofonte">Vejas as notícias desse novo titulo da franquia</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/zelda-skyward-sword-1280x720-wallpaper.jpg" class="d-block w-100" alt="Skyward Sword">
-                <div class="carousel-caption d-none d-md-block contorno">
-                    <h5>Skyward Sword HD</h5>
-                    <p class = "tamanhofonte">O remaster de Skyward Sword está chegando!</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="assets/img/zelda35.jpg" class="d-block  img-35 w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block contorno" >
-                    <h5>35 Anos de The Legend of Zelda</h5>
-                    <p class = "tamanhofonte">Veja como os 35 anos da franquia estão sendo comemorados</p>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
     <!--/Carrossel-->
 
-    <h1 class = "text-center mt-3">Noticias</h1>
+    <hr>
+
+
+    <h1 class="text-center mt-3 hylia">Noticias</h1>
 
     <div class="container mt-5">
-        <div class="row d-flex justify-content-between align-items-center">
+        <div class="row d-flex justify-content-center align-items-center">
             <div class="col-md-6">
-                <h3>The Legend of Zelda: Breath of the Wild 2</h3>
-                <h4 class = "fs-5 text-secondary">Nintendo revelou primeiro gameplay de Zelda botw 2 em conferência na E3 2021; data de lançamento ainda está indefinida no Switch</h4>
-                <p class = "fs-6 lh-base justificar">The Legend of Zelda: Breath of the Wild 2 (Zelda botw 2) teve lançamento confirmado para 2022 durante o Nintendo Direct na E3 2021, transmitido nesta terça-feira (15). Os fãs puderam conferir, pela primeira vez, um trailer de gameplay que trouxe muitos elementos familiares, incluindo gráficos, inimigos e o planador, que é fundamental para a exploração, além do Link com um braço mecânico. O jogo estará disponível exclusivamente para download no Nintendo Switch, mas sua data exata de lançamento segue um mistério.
+                <h3 class="hylia">The Legend of Zelda: Breath of the Wild 2</h3>
+                <h4 class="fs-5 text-secondary">Nintendo revelou primeiro gameplay de Zelda botw 2 em conferência na E3
+                    2021; data de lançamento ainda está indefinida no Switch</h4>
+                <br>
+                <p class="fs-6 lh-base justificar">The Legend of Zelda: Breath of the Wild 2 (Zelda botw 2) teve
+                    lançamento confirmado para 2022 durante o Nintendo Direct na E3 2021, transmitido nesta terça-feira
+                    (15). Os fãs puderam conferir, pela primeira vez, um trailer de gameplay que trouxe muitos elementos
+                    familiares, incluindo gráficos, inimigos e o planador, que é fundamental para a exploração, além do
+                    Link com um braço mecânico. O jogo estará disponível exclusivamente para download no Nintendo
+                    Switch, mas sua data exata de lançamento segue um mistério.
                 </p>
-                
+
             </div>
             <!--/Texto e Video -->
-            <div class="col-md-5">
-                <iframe width="400" height="250" src="https://www.youtube.com/embed/fNAhxl0uYQw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-6 d-flex justify-content-center">
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/fNAhxl0uYQw"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
         </div>
     </div>
+
+    <hr>
 
     <!-- Cards -->
     <div class="container mt-5">
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
                 <div class="card">
-                    <img src="assets/img/the-legend-of-zelda-breath-of-the-wild-2-trailer-screenshots.jpg" class="card-img-top" alt="...">
+                    <img src="assets/img/the-legend-of-zelda-breath-of-the-wild-2-trailer-screenshots.jpg"
+                        class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Trailer Breath of the Wild 2</h5>
-                        <p class="card-text">Um trailer de The Legend of Zelda: Breath of the wild 2 foi revelado durante a E3 2021, mostrando conteúdo inédito do jogo.</p>
+                        <p class="card-text">Um trailer de The Legend of Zelda: Breath of the wild 2 foi revelado
+                            durante a E3 2021, mostrando conteúdo inédito do jogo.</p>
                         <a href="#" class="btn btn-primary">Ver Noticia ></a>
                     </div>
                 </div>
             </div>
             <div class="col">
                 <div class="card">
-                    <img src="assets/img/Link-screenshot-from-Skyward-Sword-Nintendo-2011.png" class="card-img-top" alt="...">
+                    <img src="assets/img/Link-screenshot-from-Skyward-Sword-Nintendo-2011.png" class="card-img-top"
+                        alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Skyward Sword HD está chegando!</h5>
-                        <p class="card-text">O remaster de The Legend of Zelda: Skyward Sword tem data de lançamento prevista para 16/07/2021.</p>
-                            <a href="#" class="btn btn-primary">Ver Noticia ></a>
+                        <p class="card-text">O remaster de The Legend of Zelda: Skyward Sword tem data de lançamento
+                            prevista para 16/07/2021.</p>
+                        <a href="#" class="btn btn-primary">Ver Noticia ></a>
                     </div>
                 </div>
             </div>
@@ -191,7 +213,7 @@
                     <div class="card-body">
                         <h5 class="card-title">35 anos de idade</h5>
                         <p class="card-text">Veja aqui como fãs da franquia estão celebrando seus 35 anos.</p>
-                            <a href="#" class="btn btn-primary">Ver Noticia ></a>
+                        <a href="#" class="btn btn-primary">Ver Noticia ></a>
                     </div>
                 </div>
             </div>
@@ -200,50 +222,113 @@
                     <img src="assets/img/alllinks.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Historia da Franquia</h5>
-                        <p class="card-text">Quer descobrir mais sobre a como a franquia Zelda surgiu? Então não perca nosso artigo cobrindo todas história sobre o desenvolvimento da franquia.</p>
-                            <a href="#" class="btn btn-primary">Ver Noticia ></a>
+                        <p class="card-text">Quer descobrir mais sobre a como a franquia Zelda surgiu? Então não perca
+                            nosso artigo cobrindo todas história sobre o desenvolvimento da franquia.</p>
+                        <a href="#" class="btn btn-primary">Ver Noticia ></a>
                     </div>
                 </div>
             </div>
         </div>
-        </div>
+    </div>
 
-
-    
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
+    <!-- Footer -->
+    <footer>
+        <div class="container-fluid bg-verdeescuro mt-5">
             <div class="row">
-                <div class="col-md-12 d-flex justify-content-center mb-2">
-                    <a href="https://www.linkedin.com/in/gustavo-novaes-505614203/" target="_blank" class="p-3">
-                        <img class="social" src="assets/img/linkedin3.png" alt="Link do linkedin">
+                <div class="col-12 d-flex justify-content-center mb-2 align-items-center" id="icones-footer">
+                    <a href="https://www.linkedin.com/in/gustavo-novaes-505614203/" target="_blank" class="">
+                        <i class="fab fa-linkedin-in"></i>
                     </a>
-                    <a href="https://github.com/GustavoNovaess" target="_blank" class="p-3">
-                        <img class="social" src="assets/img/github3.png" alt="Link do GitHub">
+                    <a href="https://github.com/GustavoNovaess" target="_blank" class="">
+                        <i class="fab fa-github-alt"></i>
                     </a>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-center"> <b>
-                                Todos os direitos reservados para: Gustavo Novaes&copy;
-                            </b>
-                        </p>
-                    </div>
                 </div>
             </div>
-        </footer>
-        <!--/Footer -->
+            <div class="row mb-0 pb-0">
+                <div class="col-12 d-flex justify-content-center">
+                    <p class="hylia text-center fs-6">
+                        2021 - Gustavo Novaes &copy;
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/Footer -->
 
 
-        <!-- Option 1: Bootstrap Bundle with Popper -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-            crossorigin="anonymous"></script>
-        <script src="assets/js/script.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/de70278147.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 
 </html>
+
+<!-- Menu teste
+    <div class="sticky-top" id="fonte-menu"> 
+        <nav class="navbar navbar-expand-lg bg-verdeescuro d-flex align-items-center">
+
+            <div class="container-fluid px-0 hylia  text-ce">
+                <div class="row ">
+                    <div class="col-12 d-flex justify-content-center align-items-center">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="assets/img/hyliancrest.png" alt="" width="65" height="37">
+                        </a>
+                        <button class="navbar-toggler btn-outline-danger btn-danger" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex justify-content-evenly">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contato.html">Contato</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">História</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Jogos
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="subitem">
+                                        <li><a class="dropdown-item" href="#">Breath of the Wild 2</a></li>
+                                        <li><a class="dropdown-item" href="#">Skyward Sword</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <div id="social">
+
+                                        <a href="https://www.linkedin.com/in/gustavo-novaes-505614203/" target="_blank"
+                                            class="px-2">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                        <a href="https://github.com/GustavoNovaess" target="_blank" class="px-23">
+                                            <i class="fab fa-github-alt"></i>
+                                        </a>
+
+                                    </div>
+                                </li>
+
+                            </ul>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <p>
+
+    </p>
+    <p>
+
+    </p>
+-->

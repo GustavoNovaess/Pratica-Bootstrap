@@ -15,14 +15,19 @@
 
 <body>
     <!-- Menu -->
-    <div class = "sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid px-0">
+    <div class="sticky-top" id="fonte-menu">
+        <nav class="navbar navbar-expand-lg bg-verdeescuro">
+
+            <div class="container-fluid px-0 hylia">
+
                 <div class="row d-flex justify-content-evenly align-items-center w">
+
                     <div class="col-2 d-flex justify-content-center">
+
                         <a class="navbar-brand" href="index.html">
-                            <img src="assets/img/hyliancrest.png" alt="" width="70" height="45">
+                            <img src="assets/img/hyliancrest.png" alt="" width="65" height="37">
                         </a>
+
                     </div>
 
                     <div class="col-2 text-center">
@@ -66,7 +71,7 @@
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Jogos
                                     </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="subitem">
                                         <li><a class="dropdown-item" href="#">Breath of the Wild 2</a></li>
                                         <li><a class="dropdown-item" href="#">Skyward Sword</a></li>
                                     </ul>
@@ -75,25 +80,27 @@
                         </div>
                     </div>
 
-                    <div class="col-2 d-flex justify-content-center">
+                    <div class="col-2 d-flex justify-content-center align-items-center"
+                    id = "social">
 
-                        <a href="https://www.linkedin.com/in/gustavo-novaes-505614203/" target="_blank" class="px-1">
-                            <img class="social" src="assets/img/linkedin3.png" alt="Link do linkedin">
+                        <a href="https://www.linkedin.com/in/gustavo-novaes-505614203/" target="_blank" class="px-2">
+                            <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://github.com/GustavoNovaess" target="_blank" class="px-1">
-                            <img class="social" src="assets/img/github3.png" alt="Link do GitHub">
+                        <a href="https://github.com/GustavoNovaess" target="_blank" class="px-23">
+                            <i class="fab fa-github-alt"></i>
                         </a>
 
                     </div>
                 </div>
             </div>
+        </nav>
     </div>
-    <!--/Menu-->
 
-    <h1 class = "text-center mb-5 mt-2" >Contato</h1>
+
+    <h1 class = "text-center mb-5 mt-2 hylia" >Contato</h1>
 
     <!-- Formulário de Contato -->
-    <div class="container mt-3">
+    <div class="container mt-3 hylia">
         <div class="row d-flex justify-content-center align-items-center">
             <div class="col-6 text-start">
                 <h4>NOS MANDE UMA MENSAGEM!</h4>
@@ -127,9 +134,9 @@
     </div>
     <!--/Formulário de Contato -->
 
-    <h1 class = "text-center mb-5 mt-4" >Localização</h1>
+    <h1 class = "text-center mb-5 mt-4 hylia" >Localização</h1>
     <!-- Mapa -->
-    <div class="container mt-5">
+    <div class="container mt-5 hylia">
         <div class="row d-flex justify-content-around align-items-center">
             <div class="col-6">
                 <img src="assets/img/zeldatrimap.png" alt="">
@@ -177,6 +184,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/de70278147.js" crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
 
 </body>
